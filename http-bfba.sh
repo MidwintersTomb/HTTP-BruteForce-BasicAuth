@@ -9,17 +9,17 @@ NC='\033[0m'
 
 # Function to display usage
 usage() {
-    echo -e "${RED}|:| ERROR |:| ${NC}Usage: ./http-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"
+    echo -e "${RED}|:| ERROR |:| ${NC}Usage: ./https-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"
     exit 1
 }
 
 echo ""
-echo -e "${GREEN} _   _ _____ ___________"
-echo -e "| | | |_   _|_   _| ___ \\"
-echo -e "| |_| | | |   | | | |_/ /"
-echo -e "|  _  | | |   | | |  __/"
-echo -e "| | | | | |   | | | |"
-echo -e "\_| |_/ \_/   \_/ \_|"
+echo -e "${GREEN} _   _ _____ ___________  _________"
+echo -e "| | | |_   _|_   _| ___ \/ /  ___\ \\"
+echo -e "| |_| | | |   | | | |_/ / |\ \`--. | |"
+echo -e "|  _  | | |   | | |  __/| | \`--. \| |"
+echo -e "| | | | | |   | | | |   | |/\__/ /| |"
+echo -e "\_| |_/ \_/   \_/ \_|   \_\\\\\\____/ /_/"
 echo -e "${RED}______            _        ______"
 echo -e "| ___ \          | |       |  ___|"
 echo -e "| |_/ /_ __ _   _| |_ ___  | |_ ___  _ __ ___ ___"
