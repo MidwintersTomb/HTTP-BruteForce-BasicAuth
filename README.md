@@ -1,12 +1,12 @@
 # HTTP Brute Force Basic Auth
 
-### This is a bash script that utilizes cURL to brute force authentication via HTTP basic auth by sending the username and password combinations in the URL. (Example: `http://admin:admin123@www.domain.tld`)
+### This is a bash script that utilizes cURL to brute force authentication via HTTP basic auth by sending the username and password combinations in the URL. (Example: `https://admin:admin123@www.domain.tld`)
 
 ## Usage:
 
-#### `./http-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"`
+#### `./https-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"`
 
-#### Example: `./http-bfba.sh -u ~/users.txt -p /usr/share/wordlists/rockyout.txt -d www.domain.tld -r "401 - Unauthorized"`
+#### Example: `./https-bfba.sh -u ~/users.txt -p /usr/share/wordlists/rockyout.txt -d http://www.domain.tld -r "401 - Unauthorized"`
 
 The response filter is text in the response that indicates failure.  Hence, the filter, as it's filtering that out to find a success.
 
