@@ -9,27 +9,7 @@ NC='\033[0m'
 
 # Function to display usage
 usage() {
-    echo ""
-    echo -e "${GREEN} _   _ _____ ___________"
-    echo -e "| | | |_   _|_   _| ___ \\"
-    echo -e "| |_| | | |   | | | |_/ /"
-    echo -e "|  _  | | |   | | |  __/"
-    echo -e "| | | | | |   | | | |"
-    echo -e "\_| |_/ \_/   \_/ \_|"
-    echo -e "${RED}______            _        ______"
-    echo -e "| ___ \          | |       |  ___|"
-    echo -e "| |_/ /_ __ _   _| |_ ___  | |_ ___  _ __ ___ ___"
-    echo -e "| ___ \ '__| | | | __/ _ \ |  _/ _ \| '__/ __/ _ \\"
-    echo -e "| |_/ / |  | |_| | ||  __/ | || (_) | | | (_|  __/"
-    echo -e "\____/|_|   \__,_|\__\___| \_| \___/|_|  \___\___|"
-    echo -e "${PURPLE}______           _         ___        _   _"
-    echo -e "| ___ \         (_)       / _ \      | | | |"
-    echo -e "| |_/ / __ _ ___ _  ___  / /_\ \_   _| |_| |__"
-    echo -e "| ___ \/ _\` / __| |/ __| |  _  | | | | __| '_ \ "
-    echo -e "| |_/ / (_| \__ \ | (__  | | | | |_| | |_| | | |"
-    echo -e "\____/ \__,_|___/_|\___| \_| |_/\__,_|\__|_| |_|"
-    echo ""
-    echo -e "${NC}Usage: ./http-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"
+    echo -e "${RED}|:| ERROR |:| ${NC}Usage: ./http-bfba.sh -u <usernames_file> -p <passwords_file> -d <domain_or_ip> -r <response_filter>"
     exit 1
 }
 
