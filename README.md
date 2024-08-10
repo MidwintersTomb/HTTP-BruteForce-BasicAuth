@@ -1,6 +1,6 @@
-# HTTP Brute Force Basic Auth
+# HTTP(S) Brute Force Basic Auth
 
-### This is a bash script that utilizes cURL to brute force authentication via HTTP basic auth by sending the username and password combinations in the URL. (Example: `https://admin:admin123@www.domain.tld`)
+### This is a bash script that utilizes cURL to brute force authentication via HTTP(S) basic auth by sending the username and password combinations in the URL. (Example: `https://admin:admin123@www.domain.tld`)
 
 ## Usage:
 
